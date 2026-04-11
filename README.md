@@ -17,11 +17,11 @@ Programs That Work With KDE Plasma.
 
 | Tool | Minimum Version |
 |------|-----------------|
-| Git | latest |
+| Git | 2.x |
 | Node.js | 16+ |
 | npm | 8+ |
 | Python | 3.9+ |
-| Pipenv | latest |
+| Pipenv | 2022.x+ |
 
 ### Installation
 
@@ -32,6 +32,8 @@ Programs That Work With KDE Plasma.
    ```
 
 2. **Create a new Leon instance**
+
+   The `birth` subcommand bootstraps a fresh Leon project:
 
    ```bash
    leon create birth
